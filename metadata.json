@@ -1,0 +1,5 @@
+{
+  "name": "Backend Architect: User & Mail System",
+  "description": "A comprehensive reference and management dashboard for a Node.js/Express/MySQL backend. It includes a complete source code viewer for the backend architecture, including controllers, routes, and middleware, alongside a functional mock simulation of the user management and mailing features.",
+  "requestFramePermissions": []
+}
