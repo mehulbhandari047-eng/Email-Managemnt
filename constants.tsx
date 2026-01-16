@@ -3,6 +3,30 @@ import { BackendFile } from './types';
 
 export const BACKEND_FILES: BackendFile[] = [
   {
+    path: '.env.example',
+    language: 'plaintext',
+    description: 'Environment variables template for local development.',
+    content: `# Server Configuration
+PORT=5000
+NODE_ENV=development
+
+# Database Configuration (MySQL)
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=user_management_db
+
+# Security
+JWT_SECRET=your_super_secret_jwt_key_12345
+JWT_EXPIRES_IN=1h
+
+# Mailing Configuration (Nodemailer)
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USER=your_smtp_username
+MAIL_PASS=your_smtp_password`
+  },
+  {
     path: 'schema.sql',
     language: 'sql',
     description: 'MySQL database structure for users, roles, and tokens.',
