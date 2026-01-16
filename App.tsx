@@ -118,7 +118,7 @@ const App: React.FC = () => {
         <div className="bg-white p-8 rounded-2xl shadow-xl border border-slate-200 w-full max-w-md">
           <div className="text-center mb-8">
             <h2 className="text-2xl font-bold text-slate-800">Create Account</h2>
-            <p className="text-slate-500 text-sm">Join the Architect platform</p>
+            <p className="text-slate-500 text-sm">Join the Adventure-Triangle</p>
           </div>
           <form className="space-y-4" onSubmit={(e) => { e.preventDefault(); register(name, email, pass); }}>
             <input placeholder="Full Name" value={name} onChange={e => setName(e.target.value)} className="w-full bg-slate-50 border p-3 rounded-lg outline-none" required />
