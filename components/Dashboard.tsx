@@ -40,7 +40,7 @@ const Dashboard: React.FC<Props> = ({ notify, setCurrentView, auth }) => {
   return (
     <div className="space-y-8 animate-in fade-in duration-500">
       <div>
-        <h2 className="text-3xl font-bold text-slate-800">Test Dashboard</h2>
+        <h2 className="text-3xl font-bold text-slate-800">Adventure  Triangle   Dashboard</h2>
         <p className="text-slate-500">Manual verification suite for the Backend Architect project.</p>
       </div>
 
@@ -65,7 +65,7 @@ const Dashboard: React.FC<Props> = ({ notify, setCurrentView, auth }) => {
         <div className="px-6 py-4 border-b bg-slate-50 flex justify-between items-center">
           <h3 className="font-bold text-slate-800 flex items-center uppercase tracking-wider text-xs">
             <i className="fas fa-tasks mr-2 text-blue-500"></i>
-            Manual Testing Steps
+            Adventure Triangle Testing  
           </h3>
         </div>
         <div className="divide-y divide-slate-100">
